@@ -23,37 +23,37 @@ npm i array-limited
 To have max 3 items and push to the list
 
 ```typescript
-import { ArrayLimited } from '../ArrayLimited';
+import { ArrayLimited } from 'array-limited';
 const lmtArray = new ArrayLimited(3)
 lmtArray.push(1)
 lmtArray.push(2)
 lmtArray.push(3)
-console.log(lmtArray)
+console.log(lmtArray.values)
 // ouput: [1, 2, 3]
 lmtArray.push(4)
-console.log(lmtArray)
+console.log(lmtArray.values)
 // ouput: [2, 3, 4]
 ```
 
 You can also add items to the front to kick items at the out.
 
 ```typescript
-import { ArrayLimited } from '../ArrayLimited';
+import { ArrayLimited } from 'array-limited';
 const lmtArray = new ArrayLimited(3)
 lmtArray.push(1)
 lmtArray.push(2)
 lmtArray.push(3)
-console.log(lmtArray)
+console.log(lmtArray.values)
 // ouput: [1, 2, 3]
 lmtArray.pushFront(4)
-console.log(lmtArray)
+console.log(lmtArray.values)
 // ouput: [4, 1, 2]
 ```
 
 Finally you can check if the array is already filled.
 
 ```typescript
-import { ArrayLimited } from '../ArrayLimited';
+import { ArrayLimited } from 'array-limited';
 const lmtArray = new ArrayLimited(3)
 console.log(lmtArray.isFilled())
 // ouput: false

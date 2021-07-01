@@ -6,8 +6,16 @@ This package is a mini array cache. You specify the max number of items you want
 
 ## Installation
 
+Yarn 
+
 ```
-To fill
+yarn add array-limited
+```
+
+Npm
+
+```
+npm i array-limited
 ```
 
 ## Usage

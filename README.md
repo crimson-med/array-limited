@@ -1,6 +1,6 @@
-# Limited Array
+# Array Limited
 
-Simple limited array in length.
+Simple limited arrays in length.
 
 This package is a mini array cache. You specify the max number of items you want and it will push out of the list the elements at the beginning of the array.
 
@@ -15,8 +15,8 @@ To fill
 To have max 3 items and push to the list
 
 ```typescript
-import { LimitedArray } from '../LimitedArray';
-const lmtArray = new LimitedArray(3)
+import { ArrayLimited } from '../ArrayLimited';
+const lmtArray = new ArrayLimited(3)
 lmtArray.push(1)
 lmtArray.push(2)
 lmtArray.push(3)
@@ -30,8 +30,8 @@ console.log(lmtArray)
 You can also add items to the front to kick items at the out.
 
 ```typescript
-import { LimitedArray } from '../LimitedArray';
-const lmtArray = new LimitedArray(3)
+import { ArrayLimited } from '../ArrayLimited';
+const lmtArray = new ArrayLimited(3)
 lmtArray.push(1)
 lmtArray.push(2)
 lmtArray.push(3)
@@ -45,8 +45,8 @@ console.log(lmtArray)
 Finally you can check if the array is already filled.
 
 ```typescript
-import { LimitedArray } from '../LimitedArray';
-const lmtArray = new LimitedArray(3)
+import { ArrayLimited } from '../ArrayLimited';
+const lmtArray = new ArrayLimited(3)
 console.log(lmtArray.isFilled())
 // ouput: false
 lmtArray.push(1)
@@ -60,4 +60,4 @@ console.log(lmtArray.isFilled())
 
 **Author**: [Burlet Mederic](https://github.com/crimson-med)
 
-**Licence**: [GPL-3-0-only](https://github.com/crimson-med/limited-array
+**Licence**: [GPL-3-0-only](https://github.com/crimson-med/array-limited

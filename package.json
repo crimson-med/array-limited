@@ -1,9 +1,9 @@
 {
-  "name": "limited-array",
-  "version": "0.0.2",
-  "description": "Simple limited array in length.",
-  "main": "lib/LimitedArray.js",
-  "types": "lib/LimitedArray.d.ts",
+  "name": "array-limited",
+  "version": "0.0.0",
+  "description": "Simple limited arrays in length.",
+  "main": "lib/ArrayLimited.js",
+  "types": "lib/ArrayLimited.d.ts",
   "author": "Burlet Mederic <mederic.burlet@gmail.com>",
   "keywords": [
     "array",
@@ -35,10 +35,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/crimson-med/limited-array.git"
+    "url": "git+https://github.com/crimson-med/array-limited.git"
   },
   "bugs": {
-    "url": "https://github.com/crimson-med/limited-array/issues"
+    "url": "https://github.com/crimson-med/array-limited/issues"
   },
-  "homepage": "https://github.com/crimson-med/limited-array#readme"
+  "homepage": "https://github.com/crimson-med/array-limited#readme"
 }

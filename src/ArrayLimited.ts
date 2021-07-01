@@ -1,4 +1,4 @@
-export class LimitedArray {
+export class ArrayLimited {
     maxLength: number
     values: any[]
     constructor(maxLength: number) {

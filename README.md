@@ -1,5 +1,9 @@
 # Array Limited
 
+![npm](https://img.shields.io/npm/dm/array-limited?color=orange)
+![npm](https://img.shields.io/npm/l/array-limited?color=orange)
+![npm](https://img.shields.io/npm/v/array-limited)
+
 Simple limited arrays in length.
 
 This package is a mini array cache. You specify the max number of items you want and it will push out of the list the elements at the beginning of the array.
@@ -68,4 +72,4 @@ console.log(lmtArray.isFilled())
 
 **Author**: [Burlet Mederic](https://github.com/crimson-med)
 
-**Licence**: [GPL-3-0-only](https://github.com/crimson-med/array-limited
+**Licence**: [GPL-3-0-only](https://github.com/crimson-med/array-limited)

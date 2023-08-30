@@ -1,12 +1,12 @@
-export class ArrayLimited {
+export class ArrayLimited<ArrayType = any> {
     maxLength: number
-    values: any[]
+    values: ArrayType[]
     constructor(maxLength: number) {
         this.maxLength = maxLength
         this.values = []
     }
 
-    push = (data: any) => {
+    push = (data: ArrayType) => {
         if (this.values.length >= this.maxLength) {
             this.values.shift();
         }
@@ -17,7 +17,7 @@ export class ArrayLimited {
         return (this.values.length === this.maxLength)
     }
 
-    pushFront = (data: any) => {
+    pushFront = (data: ArrayType) => {
         if (this.values.length >= this.maxLength) {
             this.values.pop();
         }
